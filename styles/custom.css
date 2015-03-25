@@ -1,0 +1,44 @@
+fieldset {border:none;}
+h2 {font-size:26px !important;font-weight:normal !important;}
+input[type="text"], textarea {border:1px solid grey;ont-size:1.05em;line-height:1.8em;width:250px;}
+table {border:1px solid #ddd;border-right:none;}
+table.formulaire {border:none;margin:0 auto;}
+td,
+th {border-right:1px solid #ddd;}
+.formulaire td,
+.formulaire th {border:none;padding:10px;}
+tr.even td {background-color:#ececec;}
+tr.odd td {background-color:#f3f3f3;}
+tr.even td.sorting_1,
+tr.even td.sorting_2,
+tr.even td.sorting_3 {background-color:#f3f3f3;}
+tr.odd td.sorting_1,
+tr.odd td.sorting_2,
+tr.odd td.sorting_3 {background-color:#f9f9f9;}
+tr:hover td,
+tr:hover td.sorting_1,
+tr:hover td.sorting_2,
+tr:hover td.sorting_3 {background-color:#fff;}
+tr.even.reserv td {background-color:#ecdbb1;}
+tr.odd.reserv td {background-color:#f3e1b6;}
+tr.even.reserv td.sorting_1,
+tr.even.reserv td.sorting_2,
+tr.even.reserv td.sorting_3 {background-color:#ece2c9;}
+tr.odd.reserv td.sorting_1,
+tr.odd.reserv td.sorting_2,
+tr.odd.reserv td.sorting_3 {background-color:#f3e8cf;}
+tr.reserv:hover td,
+tr.reserv:hover td.sorting_1,
+tr.reserv:hover td.sorting_2,
+tr.reserv:hover td.sorting_3 {background-color:#ffe7aa;}
+tr.dispo {}
+tr.don {display:none;}
+tr.don td {background-color:red;}
+.bulle {border-bottom:30px solid #88BFDD;border-right:30px solid transparent;height:0;left:20px;position:relative;top:-30px;text-align:justify;width:0;}
+.center {text-align:center;}
+.error {color:red;}
+.humanform {display:table;font-size:1.04em;line-height:1.3em;margin:40px auto 40px auto;max-width:700px;padding:0 20px 20px 20px;}
+.humanmessage {background-color:#88BFDD;border-radius:20px;color:#FFFFFF;display:table;font-size:1.05em;line-height:1.3em;margin:40px auto 40px auto;max-width:800px;padding:0 20px 20px 20px;}
+.left {text-align:left;}
+.mandatory {border:1px solid red !important;}
+.right {text-align:right;}
